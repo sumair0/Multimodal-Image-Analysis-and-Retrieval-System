@@ -1,53 +1,57 @@
-# 515Project
-CSE 515: Multimedia and Web Databases Project Phase 3
+# Multimodal Image Analysis and Retrieval System
 
-This version is produced on our local machines, the settings are described below: 
+## Operating System
 
-Operating system: Windows 10 Home Edition; MacOS Big Sur 11.2.3
-Python version: Python 3.9.4
-Modules: OpenCV cv2, NumPy, Pandas, Sklearn, Skimage, CSVWriter, Pillow, Networkx
+- Windows 10 Home Edition
+- MacOS Big Sur 11.2.3
 
-Execution instructions: 
+## Python Version
 
-In the command line, first install all required modules
+Python 3.9.4
 
+## Required Modules
+
+- OpenCV cv2
+- NumPy
+- Pandas
+- Scikit-Image (scikit-image)
+- Matplotlib
+- OpenCV-Python
+- Scikit-Learn (scikit-learn)
+- CSVWriter
+- Pillow
+- Networkx
+
+## Execution Instructions
+
+1. Install all required modules by running the following commands in the command line:
+
+```shell
 pip install scikit-image
 pip install matplotlib
 pip install opencv-python
 pip install numpy
-pip install scikit-learn 
+pip install scikit-learn
 pip install csvwriter
 pip install networkx
 pip install pandas
+```
 
-Enter number of task to perform:
-1. Task 1
-2. Task 2
-3. Task 3
-4. Task 4
-5. Task 5
-6. Task 6
-7. Task 7
-8. Task 8
-9. View image types
-10. Quit
-<1,2,3,4,5,6,7,8,9,10>
+2. Enter the desired task number from the options provided: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].
 
-Task 1
-Enter path for first folder:
-<string>
-Enter feature model:
-<cm,elbp,hog>
-Enter k:
-<val>
-Enter path for second folder:
-<string>
-Enter classifier model to be used: 
-1. SVM
-2. decision tree
-3. PPR
-<1,2,3>
-Example: 
+## Tasks
+
+### Task 1
+
+- Enter the path for the first folder.
+- Enter the feature model (options: cm, elbp, hog).
+- Enter the value of k.
+- Enter the path for the second folder.
+- Enter the classifier model to be used (options: SVM, decision tree, PPR).
+
+Example:
+
+```plaintext
 Enter path for first folder:
 1000
 Enter feature model:
@@ -56,27 +60,21 @@ Enter k:
 5
 Enter path for second folder:
 100
-Enter classifier model to be used: 
-1. SVM
-2. decision tree
-3. PPR
+Enter classifier model to be used:
 2
+```
 
-Task 2
-Enter path for first folder:
-<string>
-Enter feature model:
-<cm,elbp,hog>
-Enter k:
-<val>
-Enter path for second folder:
-<string>
-Enter classifier model to be used: 
-1. SVM
-2. decision tree
-3. PPR
-<1,2,3>
+### Task 2
+
+- Enter the path for the first folder.
+- Enter the feature model (options: cm, elbp, hog).
+- Enter the value of k.
+- Enter the path for the second folder.
+- Enter the classifier model to be used (options: SVM, decision tree, PPR).
+
 Example:
+
+```plaintext
 Enter path for first folder:
 1000
 Enter feature model:
@@ -85,27 +83,21 @@ Enter k:
 5
 Enter path for second folder:
 100
-Enter classifier model to be used: 
-1. SVM
-2. Decision Tree
-3. PPR
+Enter classifier model to be used:
 2
+```
 
-Task 3
-Enter path for first folder:
-<string>
-Enter feature model:
-<cm,elbp,hog>
-Enter k:
-<val>
-Enter path for second folder:
-<string>
-Enter classifier model to be used: 
-1. SVM
-2. decision tree
-3. PPR
-<1,2,3>
+### Task 3
+
+- Enter the path for the first folder.
+- Enter the feature model (options: cm, elbp, hog).
+- Enter the value of k.
+- Enter the path for the second folder.
+- Enter the classifier model to be used (options: SVM, decision tree, PPR).
+
 Example:
+
+```plaintext
 Enter path for first folder:
 1000
 Enter feature model:
@@ -114,24 +106,30 @@ Enter k:
 5
 Enter path for second folder:
 100
-Enter classifier model to be used: 
-1. SVM
-2. Decision Tree
-3. PPR
+Enter classifier model to be used:
 2
+```
 
-Task 4
-Enter the filepath of the folder to perform LSH on: <string>
-Enter feature model: <cm, elbp, hog>
-Enter k value: <val>
-Enter number of Layers: <val>
-Enter filepath of image to perform search on: <string>
-Enter t value: <val>
+### Task 4
+
+- Enter the filepath of the folder to perform LSH on.
+- Enter the feature model (options: cm, elbp, hog).
+- Enter the value of k.
+- Enter the number of Layers.
+- Enter the filepath of the image to perform search on.
+- Enter the value of t.
 
 Example:
-Enter the filepath of the folder to perform LSH on: 100
-Enter feature model: elbp
-Enter k value: 5
-Enter number of Layers: 3
-Enter filepath of image to perform search on: test/image-cc-1-1.png
-Enter t value: 5
+
+```plaintext
+Enter the filepath of the folder to perform LSH on:
+100
+Enter feature model:
+elbp
+Enter k value:
+5
+Enter number of Layers:
+3
+Enter filepath of image to perform search on:
+test/image-cc-1-1.png
+Enter t value:
