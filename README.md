@@ -1,4 +1,7 @@
 # Multimodal Image Analysis and Retrieval System
+This project focuses on implementing a semantic image search and relevance feedback system using vector models, indexing and search techniques, classification algorithms, and relevance feedback mechanisms. Additionally, the project involves the implementation of Locality-Sensitive Hashing (LSH) and VA-Files for efficient image indexing and search operations.
+
+Tasks within the project include implementing image labeling, latent semantics computation, classifier selection (SVM, decision-tree, PPR-based), false positive and miss rate computation, LSH tool development, similar image search using LSH index structure, VA-Files index tool development, similar image search using VA-Files index structure, decision-tree-based relevance feedback, SVM-classifier-based relevance feedback, and query and feedback interface implementation.
 
 ## Operating System
 
